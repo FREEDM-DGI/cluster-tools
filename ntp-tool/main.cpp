@@ -9,6 +9,7 @@
 #include <sys/mman.h> // mlockall()
 #include <getopt.h>
 #include <string.h>
+#include <time.h>
 
 #include <fstream>
 #include <iostream>

@@ -1,0 +1,19 @@
+# This file will contain the hosts that will be manipulated when running the
+# scripts. The first column will be the name of the host. The second columnn
+# will be the username to connect to that host with. The third column will be
+# the IP address that will be used to communicate with that host. The fourth
+# column is for any options that you want to provide.
+#
+# Any line that contains a # will be ignored!
+#
+# The options available for the fourth column:
+# NONTP - Do not install the NTP script on to that host.
+# 
+#Hostname       SSH User         IP Address          Options
+MAMBA1          root             192.168.1.110
+MAMBA2          root             192.168.1.111
+MAMBA3          root             192.168.1.112
+MAMBA4          root             192.168.1.113
+MAMBA5          root             192.168.1.114
+MAMBA6          root             192.168.1.115
+#TS7800         root             192.168.1.116       NONTP

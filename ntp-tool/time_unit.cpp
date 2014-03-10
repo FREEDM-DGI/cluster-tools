@@ -9,6 +9,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <limits.h>
+#include <unistd.h>
 
 #include <iostream>
 #include <sstream>
@@ -233,7 +234,7 @@ time_unit::init_hz(int seconds)
 	cyc_start = read_tsc();
 	ts_start = time_unit::read_ntptime();
 
-	sleep(seconds);
+	usleep(seconds);
 
 	cyc_stop = read_tsc();
 	ts_stop = time_unit::read_ntptime();
