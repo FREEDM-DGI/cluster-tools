@@ -1,0 +1,32 @@
+# The path to the DGI repository on the remote machine (Should put you in the
+# base directory of the repository)
+dgi_path: /root/MST/FREEDM
+
+# The ssh path to the DGI repository to clone (Only done if the dgi_path) does
+# not already exist.
+git_clone_target: dgiteam@192.168.1.200:~/FREEDM
+
+# The path to the timing config. This should be a path on the Local machine. it
+# will be installed to $dgi_path/Broker/config/timings.cfg
+# Tilde's will be expanded.
+timing_config: ~/FREEDM/config/samples/timings-ts7800-6.cfg
+
+# The path to the logger config. This should be a path on the Local machine. It
+# will be installed to $dgi_path/Broker/config/logger.cfg
+# Tilde's will be expanded.
+logger_config: ~/FREEDM/config/samples/logger.cfg
+
+# The path to install the ntp-tool on the remote machine
+ntp_path: /root/ntp-tool/
+
+# Path to a an ssh keyfile. If provided, this key will be used to connect to
+# the remote machines. Comment if you don't plan to use a keyfile.
+key_filename: ~/.ssh/id_rsa
+
+# The target to check out. Can be a tag or a branch
+checkout_target: 1.5.0
+
+# Options that should be passed to cmake before building
+#cmake_options:
+
+

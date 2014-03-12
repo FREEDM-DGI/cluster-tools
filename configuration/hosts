@@ -1,19 +1,41 @@
 # This file will contain the hosts that will be manipulated when running the
-# scripts. The first column will be the name of the host. The second columnn
-# will be the username to connect to that host with. The third column will be
-# the IP address that will be used to communicate with that host. The fourth
-# column is for any options that you want to provide.
-#
-# Any line that contains a # will be ignored!
-#
-# The options available for the fourth column:
-# NONTP - Do not install the NTP script on to that host.
+# scripts. 
 # 
-#Hostname       SSH User         IP Address          Options
-MAMBA1          root             192.168.1.110
-MAMBA2          root             192.168.1.111
-MAMBA3          root             192.168.1.112
-MAMBA4          root             192.168.1.113
-MAMBA5          root             192.168.1.114
-MAMBA6          root             192.168.1.115
-#TS7800         root             192.168.1.116       NONTP
+# This document is in YAML format for ease of editing. The local machine should
+# be able to connect to a remote machine through a hostname, which is the first
+# level key in the configuration (ie, MAMBA1, MAMBA2, MAMBA3, etc). Under this
+# entry, the keys user, ip_address, and options should be provided.
+#
+# user is the SSH user that should be used to connect to the machine. (ie, the
+# script will attempt to connect to user@hostname
+#
+# ip_address is the ip other nodes will attempt to connect to this one with.
+# This entry is used to generate the hosts file.
+#
+# options are phrases which may be provided to change the behavior of the
+# of the script. At this time there are no options.
+
+MAMBA1:
+    user: root
+    ip_address: 192.168.1.110
+    options: 
+MAMBA2:
+    user: root
+    ip_address: 192.168.1.111
+    options: 
+MAMBA3:
+    user: root
+    ip_address: 192.168.1.112
+    options: 
+MAMBA4:
+    user: root
+    ip_address: 192.168.1.113
+    options: 
+MAMBA5:
+    user: root
+    ip_address: 192.168.1.114
+    options: 
+MAMBA6:
+    user: root
+    ip_address: 192.168.1.115
+    options: 

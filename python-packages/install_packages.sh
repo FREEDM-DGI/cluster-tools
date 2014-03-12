@@ -15,4 +15,4 @@ fi
 $PYTHON ${DIR}/get-pip.py --user
 
 # This calls the installed pip and uses it to install fabric.
-$PYTHON ${DIR}/call-pip.py install --user fabric
+$PYTHON ${DIR}/call-pip.py install --user fabric pyyaml

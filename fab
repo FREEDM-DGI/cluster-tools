@@ -12,4 +12,5 @@ else
 fi
 
 #This calls the installed fabric (which was installed to the user account)
-$PYTHON ${DIR}/call-fabric.py "$@"
+cd ${DIR}/fabric-scripts
+$PYTHON call-fabric.py "$@"

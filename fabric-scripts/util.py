@@ -1,48 +1,41 @@
-class ParserError(Exception):
-    pass
+# Utilities for loading configuration files.
 
-def parse_tabbed_config(conf_file):
-    """
-    Given a input file conf_file this will split it into tokens by line,
-    ignoring comments.
-    
-    yields the split tokens until EOF
-    """
-    f = file(conf_file)
-    result = []
-    for line in f:
-        do = line.split("#")[0]
-        tokens = do.split()
-        yield tokens
+import yaml
+import os
 
-def get_fabric_hosts(conf_file):
+def open_config_yaml(filename):
     """
-    Given an input file conf_file this will spit it into tokens by line.
-
-    It will check to make sure there are 3 tokens. If there are not
-    3 tokens then a Parser Error is raised.
-
-    If there are more than 4 tokens, then the remaining tokens are rejoined
-    and then split by commas (These are options for installing things)
-    
-    returns a list of dictionaries which are guaranteed to contain the keys
-    hostname, user, ip and options.
+    Given a filename, open the yaml document from the configuration folder,
+    which should be located one directory up.
     """
-    for tokens in parse_tabbed_config(conf_file)
-        try:
-            d = {
-                'hostname': tokens[0],
-                'user':     tokens[1],
-                'ip':       tokens[2],
-            }
-        except IndexError:
-            raise ParserError("Couldn't parse '{}', a token is missing.".format(d))
-        if len(tokens) >= 3:
-            rem = " ".join(tokens[3:])
-            d['options'] = rem.split(",")
-        else:
-            d['options'] = []
-        result.append(d)
+    CONFIG_FOLDER = "../configuration"
+    filename = os.path.join(CONFIG_FOLDER,filename)
+    fp = open(filename)
+    conf = yaml.safe_load(fp)
+    fp.close()
+    return conf
+
+def open_deployment_yaml()
+    CONFIG_FILE = "deployment"
+    conf = open_config_yaml(CONFIG_FILE)
+    # Do a few things to get some extra paths, derived from the other paths.
+    # First, look at dgi_path. The clone should go into the parent of dgi_path
+    # so that when the clone is complete, you can use dgi_path to get to the
+    # codebase.
+    tmp = os.path.join(conf['dgi_path'],"..")
+    conf['clone_path'] = os.path.normpath(tmp)
+    conf['broker_path'] = os.path.join(conf['dgi_path'],"Broker")
+    conf['binary_path'] = os.path.join(conf['broker_path'], "PosixMain")
+    conf['config_path'] = os.path.join(conf['broker_path'], "config")
+    return conf
+
+def get_fabric_hosts()
+    """
+    This should open the hosts configuration file and turn it into a list for
+    fabric to use.
+    """
+    CONFIG_FILE = "hosts"
+    conf = open_config_yaml(CONFIG_FILE)
+    result = [ "{}@{}".format(conf[host]['user'], host) for host in conf ]
     return result
-
 
