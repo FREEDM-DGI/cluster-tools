@@ -1,0 +1,101 @@
+simulation:
+    state:
+        - device: SST1
+          signals: [ gateway ]
+        
+        - device: SST2
+          signals: [ gateway ]
+        
+        - device: SST3
+          signals: [ gateway ]
+        
+        - device: SST4
+          signals: [ gateway ]
+        
+        - device: SST5
+          signals: [ gateway ]
+        
+        - device: SST6
+          signals: [ gateway ]
+        
+        - device: SST7
+          signals: [ gateway ]
+
+        - device: FREQ
+          signals: [ frequency ]
+
+        - device: LOGGER
+          signals: [ dgiEnable ]
+    
+        - device: FID1
+          signals: [ state ]
+        
+        - device: FID2
+          signals: [ state ]
+
+        - device: FID3
+          signals: [ state ]
+        
+        - device: FID4
+          signals: [ state ]
+        
+        - device: FID5
+          signals: [ state ]
+        
+        - device: FID6
+          signals: [ state ]
+        
+        - device: FID7
+          signals: [ state ]
+        
+        - device: FID8
+          signals: [ state ]
+        
+        - device: FID9
+          signals: [ state ]
+        
+        - device: FID10
+          signals: [ state ]
+        
+        - device: FID11
+          signals: [ state ]
+        
+        - device: FID12
+          signals: [ state ]
+        
+        - device: FID13
+          signals: [ state ]
+        
+        - device: FID14
+          signals: [ state ]
+    
+    command: 
+        - device: SST1
+          signals: [ gateway ]
+
+        - device: SST2
+          signals: [ gateway ]
+
+        - device: SST3
+          signals: [ gateway ]
+
+        - device: SST4
+          signals: [ gateway ]
+
+        - device: SST5
+          signals: [ gateway ]
+
+        - device: SST6
+          signals: [ gateway ]
+
+        - device: SST7
+          signals: [ gateway ]
+
+DGIs:
+    - [ SST1, FID1, FID2 ]
+    - [ SST2, FID2, FID3 ]
+    - [ SST3, FID3, FID4 ]
+    - [ SST4, FID4, FID5 ]
+    - [ SST5, FID5, FID6 ]
+    - [ SST6, FID6, FID7 ]
+

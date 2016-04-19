@@ -1,0 +1,32 @@
+<root>
+<adapter name='PSCADSimulation' type='rtds'>
+<info>
+<host>galvantula.freedm</host>
+<port>5007</port>
+</info>
+<state>
+<entry index='1'>
+  <device>SST7</device>
+  <signal>gateway</signal>
+  <type>Sst</type>
+</entry>
+<entry index='2'>
+  <device>FID7</device>
+  <signal>state</signal>
+  <type>Fid</type>
+</entry>
+<entry index='3'>
+  <device>FID8</device>
+  <signal>state</signal>
+  <type>Fid</type>
+</entry>
+</state>
+<command>
+<entry index='1'>
+  <device>SST7</device>
+  <signal>gateway</signal>
+  <type>Sst</type>
+</entry>
+</command>
+</adapter>
+</root>
