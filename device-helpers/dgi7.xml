@@ -1,22 +1,37 @@
 <root>
 <adapter name='PSCADSimulation' type='rtds'>
 <info>
-<host>galvantula.freedm</host>
-<port>5007</port>
+<host>192.168.200.77</host>
+<port>23017</port>
 </info>
 <state>
 <entry index='1'>
+  <device>LOAD7</device>
+  <signal>drain</signal>
+  <type>Load</type>
+</entry>
+<entry index='2'>
+  <device>DRER7</device>
+  <signal>generation</signal>
+  <type>Drer</type>
+</entry>
+<entry index='3'>
   <device>SST7</device>
   <signal>gateway</signal>
   <type>Sst</type>
 </entry>
-<entry index='2'>
+<entry index='4'>
+  <device>LOGGER</device>
+  <signal>dgiEnable</signal>
+  <type>Logger</type>
+</entry>
+<entry index='5'>
   <device>FID7</device>
   <signal>state</signal>
   <type>Fid</type>
 </entry>
-<entry index='3'>
-  <device>FID8</device>
+<entry index='6'>
+  <device>FID1</device>
   <signal>state</signal>
   <type>Fid</type>
 </entry>
@@ -26,6 +41,11 @@
   <device>SST7</device>
   <signal>gateway</signal>
   <type>Sst</type>
+</entry>
+<entry index='2'>
+  <device>LOGGER</device>
+  <signal>groupStatus</signal>
+  <type>Logger</type>
 </entry>
 </command>
 </adapter>

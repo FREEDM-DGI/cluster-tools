@@ -1,101 +1,155 @@
 simulation:
     state:
+        - device: LOAD1
+          signals: [ drain ]
+        - device: LOAD2
+          signals: [ drain ]
+        - device: LOAD3
+          signals: [ drain ]
+        - device: LOAD4
+          signals: [ drain ]
+        - device: LOAD5
+          signals: [ drain ]
+        - device: LOAD6
+          signals: [ drain ]
+        - device: LOAD7
+          signals: [ drain ]
+        - device: LOAD8
+          signals: [ drain ]
+        - device: LOAD9
+          signals: [ drain ]
+        - device: LOAD10
+          signals: [ drain ]
+        - device: LOAD11
+          signals: [ drain ]
+        - device: LOAD12
+          signals: [ drain ]
+        - device: LOAD13
+          signals: [ drain ]
+        - device: LOAD14
+          signals: [ drain ]
+
+        - device: DRER1
+          signals: [ generation ]
+        - device: DRER2
+          signals: [ generation ]
+        - device: DRER3
+          signals: [ generation ]
+        - device: DRER4
+          signals: [ generation ]
+        - device: DRER5
+          signals: [ generation ]
+        - device: DRER6
+          signals: [ generation ]
+        - device: DRER7
+          signals: [ generation ]
+        - device: DRER8
+          signals: [ generation ]
+        - device: DRER9
+          signals: [ generation ]
+        - device: DRER10
+          signals: [ generation ]
+        - device: DRER11
+          signals: [ generation ]
+        - device: DRER12
+          signals: [ generation ]
+        - device: DRER13
+          signals: [ generation ]
+        - device: DRER14
+          signals: [ generation ]
+
         - device: SST1
           signals: [ gateway ]
-        
         - device: SST2
           signals: [ gateway ]
-        
         - device: SST3
           signals: [ gateway ]
-        
         - device: SST4
           signals: [ gateway ]
-        
         - device: SST5
           signals: [ gateway ]
-        
         - device: SST6
           signals: [ gateway ]
-        
         - device: SST7
           signals: [ gateway ]
-
-        - device: FREQ
-          signals: [ frequency ]
-
+        - device: SST8
+          signals: [ gateway ]
+        - device: SST9
+          signals: [ gateway ]
+        - device: SST10
+          signals: [ gateway ]
+        - device: SST11
+          signals: [ gateway ]
+        - device: SST12
+          signals: [ gateway ]
+        - device: SST13
+          signals: [ gateway ]
+        - device: SST14
+          signals: [ gateway ]
+   
         - device: LOGGER
-          signals: [ dgiEnable ]
-    
+          signals: [ dgiEnable ]            
+ 
         - device: FID1
           signals: [ state ]
-        
         - device: FID2
           signals: [ state ]
-
         - device: FID3
           signals: [ state ]
-        
         - device: FID4
           signals: [ state ]
-        
         - device: FID5
           signals: [ state ]
-        
         - device: FID6
           signals: [ state ]
-        
         - device: FID7
-          signals: [ state ]
-        
-        - device: FID8
-          signals: [ state ]
-        
-        - device: FID9
-          signals: [ state ]
-        
-        - device: FID10
-          signals: [ state ]
-        
-        - device: FID11
-          signals: [ state ]
-        
-        - device: FID12
-          signals: [ state ]
-        
-        - device: FID13
-          signals: [ state ]
-        
-        - device: FID14
           signals: [ state ]
     
     command: 
         - device: SST1
           signals: [ gateway ]
-
         - device: SST2
           signals: [ gateway ]
-
         - device: SST3
           signals: [ gateway ]
-
         - device: SST4
           signals: [ gateway ]
-
         - device: SST5
           signals: [ gateway ]
-
         - device: SST6
           signals: [ gateway ]
-
         - device: SST7
           signals: [ gateway ]
+        - device: SST8
+          signals: [ gateway ]
+        - device: SST9
+          signals: [ gateway ]
+        - device: SST10
+          signals: [ gateway ]
+        - device: SST11
+          signals: [ gateway ]
+        - device: SST12
+          signals: [ gateway ]
+        - device: SST13
+          signals: [ gateway ]
+        - device: SST14
+          signals: [ gateway ]
+        - device: LOGGER
+          signals: [ groupStatus ] 
 
 DGIs:
-    - [ SST1, FID1, FID2 ]
-    - [ SST2, FID2, FID3 ]
-    - [ SST3, FID3, FID4 ]
-    - [ SST4, FID4, FID5 ]
-    - [ SST5, FID5, FID6 ]
-    - [ SST6, FID6, FID7 ]
+    - [ LOAD1, DRER1, SST1, LOGGER, FID1, FID2 ]
+    - [ LOAD2, DRER2, SST2, LOGGER, FID2, FID3 ]
+    - [ LOAD3, DRER3, SST3, LOGGER, FID3, FID4 ]
+    - [ LOAD4, DRER4, SST4, LOGGER, FID4, FID5 ]
+    - [ LOAD5, DRER5, SST5, LOGGER, FID5, FID6 ]
+    - [ LOAD6, DRER6, SST6, LOGGER, FID6, FID7 ]
+    - [ LOAD7, DRER7, SST7, LOGGER, FID7, FID1 ]
+    - [ LOAD8, DRER8, SST8, LOGGER, FID2, FID3 ]
+    - [ LOAD9, DRER9, SST9, LOGGER, FID3, FID4 ]
+    - [ LOAD10, DRER10, SST10, LOGGER, FID6, FID7 ]
+    - [ LOAD11, DRER11, SST11, LOGGER, FID7, FID1 ]
+    - [ LOAD12, DRER12, SST12, LOGGER, FID1, FID2 ]
+    - [ LOAD13, DRER13, SST13, LOGGER, FID4, FID5 ]
+    - [ LOAD14, DRER14, SST14, LOGGER, FID5, FID6 ]
 

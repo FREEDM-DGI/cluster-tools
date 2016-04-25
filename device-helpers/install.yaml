@@ -1,0 +1,57 @@
+config:
+    user: root
+    remote_base_dir: /root/MST/FREEDM/Broker
+targets:
+    - host: mamba1
+      install:
+        - file: dgi12.xml 
+          as: adapter.xml
+        - file: dgi4.xml
+          as: adapter2.xml
+        - file: freedm.cfg
+        - file: topology.cfg
+    - host: mamba2
+      install:
+        - file: dgi1.xml
+          as: adapter.xml
+        - file: dgi13.xml
+          as: adapter2.xml
+        - file: freedm.cfg
+        - file: topology.cfg
+    - host: mamba3
+      install:
+        - file: dgi2.xml
+          as: adapter.xml
+        - file: dgi14.xml
+          as: adapter2.xml
+        - file: freedm.cfg
+        - file: topology.cfg
+    - host: mamba4
+      install:
+        - file: dgi8.xml
+          as: adapter.xml
+        - file: dgi5.xml
+          as: adapter2.xml
+        - file: freedm.cfg
+        - file: topology.cfg
+    - host: mamba5
+      install:
+        - file: dgi3.xml
+          as: adapter.xml
+        - file: dgi5.xml
+          as: adapter2.xml
+        - file: dgi7.xml
+          as: adapter3.xml
+        - file: freedm.cfg
+        - file: topology.cfg
+    - host: mamba6
+      install:
+        - file: dgi9.xml
+          as: adapter.xml
+        - file: dgi6.xml
+          as: adapter2.xml
+        - file: dgi11.xml
+          as: adapter3.xml
+        - file: freedm.cfg
+        - file: topology.cfg
+    

@@ -2,21 +2,21 @@
 <adapter name='PSCADSimulation' type='rtds'>
 <info>
 <host>192.168.200.77</host>
-<port>23012</port>
+<port>23023</port>
 </info>
 <state>
 <entry index='1'>
-  <device>LOAD2</device>
+  <device>LOAD13</device>
   <signal>drain</signal>
   <type>Load</type>
 </entry>
 <entry index='2'>
-  <device>DRER2</device>
+  <device>DRER13</device>
   <signal>generation</signal>
   <type>Drer</type>
 </entry>
 <entry index='3'>
-  <device>SST2</device>
+  <device>SST13</device>
   <signal>gateway</signal>
   <type>Sst</type>
 </entry>
@@ -26,19 +26,19 @@
   <type>Logger</type>
 </entry>
 <entry index='5'>
-  <device>FID2</device>
+  <device>FID4</device>
   <signal>state</signal>
   <type>Fid</type>
 </entry>
 <entry index='6'>
-  <device>FID3</device>
+  <device>FID5</device>
   <signal>state</signal>
   <type>Fid</type>
 </entry>
 </state>
 <command>
 <entry index='1'>
-  <device>SST2</device>
+  <device>SST13</device>
   <signal>gateway</signal>
   <type>Sst</type>
 </entry>

@@ -1,9 +1,11 @@
 import yaml
 import sys
 
+#SIMULATION_PORT = 3000
 SIMULATION_PORT = 3000
-FIRST_DGI_PORT = 5001
-SIMULATION_HOST = "galvantula.freedm"
+#FIRST_DGI_PORT = 5001
+FIRST_DGI_PORT = 23011
+SIMULATION_HOST = "192.168.200.77"
 
 def device_to_type(device):
     if device.find("SST") != -1:
@@ -12,6 +14,12 @@ def device_to_type(device):
         return "Fid"
     elif device.find("FREQ") != -1:
         return "Omega"
+    elif device.find("DRER") != -1:
+        return "Drer"
+    elif device.find("DESD") != -1:
+        return "Desd"
+    elif device.find("LOAD") != -1:
+        return "Load"
     elif device.find("LOGGER") != -1:
         return "Logger"
     return "UNDEFINED"

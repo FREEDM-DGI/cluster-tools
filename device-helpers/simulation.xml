@@ -2,6 +2,208 @@
 <adapter type='simulation' port='3000'> 
 <state>
 <entry index='1'>
+  <device>LOAD1</device>
+  <signal>drain</signal>
+</entry>
+<entry index='2'>
+  <device>LOAD2</device>
+  <signal>drain</signal>
+</entry>
+<entry index='3'>
+  <device>LOAD3</device>
+  <signal>drain</signal>
+</entry>
+<entry index='4'>
+  <device>LOAD4</device>
+  <signal>drain</signal>
+</entry>
+<entry index='5'>
+  <device>LOAD5</device>
+  <signal>drain</signal>
+</entry>
+<entry index='6'>
+  <device>LOAD6</device>
+  <signal>drain</signal>
+</entry>
+<entry index='7'>
+  <device>LOAD7</device>
+  <signal>drain</signal>
+</entry>
+<entry index='8'>
+  <device>LOAD8</device>
+  <signal>drain</signal>
+</entry>
+<entry index='9'>
+  <device>LOAD9</device>
+  <signal>drain</signal>
+</entry>
+<entry index='10'>
+  <device>LOAD10</device>
+  <signal>drain</signal>
+</entry>
+<entry index='11'>
+  <device>LOAD11</device>
+  <signal>drain</signal>
+</entry>
+<entry index='12'>
+  <device>LOAD12</device>
+  <signal>drain</signal>
+</entry>
+<entry index='13'>
+  <device>LOAD13</device>
+  <signal>drain</signal>
+</entry>
+<entry index='14'>
+  <device>LOAD14</device>
+  <signal>drain</signal>
+</entry>
+<entry index='15'>
+  <device>DRER1</device>
+  <signal>generation</signal>
+</entry>
+<entry index='16'>
+  <device>DRER2</device>
+  <signal>generation</signal>
+</entry>
+<entry index='17'>
+  <device>DRER3</device>
+  <signal>generation</signal>
+</entry>
+<entry index='18'>
+  <device>DRER4</device>
+  <signal>generation</signal>
+</entry>
+<entry index='19'>
+  <device>DRER5</device>
+  <signal>generation</signal>
+</entry>
+<entry index='20'>
+  <device>DRER6</device>
+  <signal>generation</signal>
+</entry>
+<entry index='21'>
+  <device>DRER7</device>
+  <signal>generation</signal>
+</entry>
+<entry index='22'>
+  <device>DRER8</device>
+  <signal>generation</signal>
+</entry>
+<entry index='23'>
+  <device>DRER9</device>
+  <signal>generation</signal>
+</entry>
+<entry index='24'>
+  <device>DRER10</device>
+  <signal>generation</signal>
+</entry>
+<entry index='25'>
+  <device>DRER11</device>
+  <signal>generation</signal>
+</entry>
+<entry index='26'>
+  <device>DRER12</device>
+  <signal>generation</signal>
+</entry>
+<entry index='27'>
+  <device>DRER13</device>
+  <signal>generation</signal>
+</entry>
+<entry index='28'>
+  <device>DRER14</device>
+  <signal>generation</signal>
+</entry>
+<entry index='29'>
+  <device>SST1</device>
+  <signal>gateway</signal>
+</entry>
+<entry index='30'>
+  <device>SST2</device>
+  <signal>gateway</signal>
+</entry>
+<entry index='31'>
+  <device>SST3</device>
+  <signal>gateway</signal>
+</entry>
+<entry index='32'>
+  <device>SST4</device>
+  <signal>gateway</signal>
+</entry>
+<entry index='33'>
+  <device>SST5</device>
+  <signal>gateway</signal>
+</entry>
+<entry index='34'>
+  <device>SST6</device>
+  <signal>gateway</signal>
+</entry>
+<entry index='35'>
+  <device>SST7</device>
+  <signal>gateway</signal>
+</entry>
+<entry index='36'>
+  <device>SST8</device>
+  <signal>gateway</signal>
+</entry>
+<entry index='37'>
+  <device>SST9</device>
+  <signal>gateway</signal>
+</entry>
+<entry index='38'>
+  <device>SST10</device>
+  <signal>gateway</signal>
+</entry>
+<entry index='39'>
+  <device>SST11</device>
+  <signal>gateway</signal>
+</entry>
+<entry index='40'>
+  <device>SST12</device>
+  <signal>gateway</signal>
+</entry>
+<entry index='41'>
+  <device>SST13</device>
+  <signal>gateway</signal>
+</entry>
+<entry index='42'>
+  <device>SST14</device>
+  <signal>gateway</signal>
+</entry>
+<entry index='43'>
+  <device>LOGGER</device>
+  <signal>dgiEnable</signal>
+</entry>
+<entry index='44'>
+  <device>FID1</device>
+  <signal>state</signal>
+</entry>
+<entry index='45'>
+  <device>FID2</device>
+  <signal>state</signal>
+</entry>
+<entry index='46'>
+  <device>FID3</device>
+  <signal>state</signal>
+</entry>
+<entry index='47'>
+  <device>FID4</device>
+  <signal>state</signal>
+</entry>
+<entry index='48'>
+  <device>FID5</device>
+  <signal>state</signal>
+</entry>
+<entry index='49'>
+  <device>FID6</device>
+  <signal>state</signal>
+</entry>
+<entry index='50'>
+  <device>FID7</device>
+  <signal>state</signal>
+</entry>
+</state>
+<command>
+<entry index='1'>
   <device>SST1</device>
   <signal>gateway</signal>
 </entry>
@@ -30,114 +232,67 @@
   <signal>gateway</signal>
 </entry>
 <entry index='8'>
-  <device>FREQ</device>
-  <signal>frequency</signal>
+  <device>SST8</device>
+  <signal>gateway</signal>
 </entry>
 <entry index='9'>
-  <device>LOGGER</device>
-  <signal>dgiEnable</signal>
+  <device>SST9</device>
+  <signal>gateway</signal>
 </entry>
 <entry index='10'>
-  <device>FID1</device>
-  <signal>state</signal>
+  <device>SST10</device>
+  <signal>gateway</signal>
 </entry>
 <entry index='11'>
-  <device>FID2</device>
-  <signal>state</signal>
+  <device>SST11</device>
+  <signal>gateway</signal>
 </entry>
 <entry index='12'>
-  <device>FID3</device>
-  <signal>state</signal>
+  <device>SST12</device>
+  <signal>gateway</signal>
 </entry>
 <entry index='13'>
-  <device>FID4</device>
-  <signal>state</signal>
+  <device>SST13</device>
+  <signal>gateway</signal>
 </entry>
 <entry index='14'>
-  <device>FID5</device>
-  <signal>state</signal>
+  <device>SST14</device>
+  <signal>gateway</signal>
 </entry>
 <entry index='15'>
-  <device>FID6</device>
-  <signal>state</signal>
-</entry>
-<entry index='16'>
-  <device>FID7</device>
-  <signal>state</signal>
-</entry>
-<entry index='17'>
-  <device>FID8</device>
-  <signal>state</signal>
-</entry>
-<entry index='18'>
-  <device>FID9</device>
-  <signal>state</signal>
-</entry>
-<entry index='19'>
-  <device>FID10</device>
-  <signal>state</signal>
-</entry>
-<entry index='20'>
-  <device>FID11</device>
-  <signal>state</signal>
-</entry>
-<entry index='21'>
-  <device>FID12</device>
-  <signal>state</signal>
-</entry>
-<entry index='22'>
-  <device>FID13</device>
-  <signal>state</signal>
-</entry>
-<entry index='23'>
-  <device>FID14</device>
-  <signal>state</signal>
-</entry>
-</state>
-<command>
-<entry index='1'>
-  <device>SST1</device>
-  <signal>gateway</signal>
-</entry>
-<entry index='2'>
-  <device>SST2</device>
-  <signal>gateway</signal>
-</entry>
-<entry index='3'>
-  <device>SST3</device>
-  <signal>gateway</signal>
-</entry>
-<entry index='4'>
-  <device>SST4</device>
-  <signal>gateway</signal>
-</entry>
-<entry index='5'>
-  <device>SST5</device>
-  <signal>gateway</signal>
-</entry>
-<entry index='6'>
-  <device>SST6</device>
-  <signal>gateway</signal>
-</entry>
-<entry index='7'>
-  <device>SST7</device>
-  <signal>gateway</signal>
+  <device>LOGGER</device>
+  <signal>groupStatus</signal>
 </entry>
 </command>
 </adapter>
-<adapter type='rtds' port='5001'> 
+<adapter type='rtds' port='23011'> 
 <state>
 <entry index='1'>
+  <device>LOAD1</device>
+  <signal>drain</signal>
+  <type>Load</type>
+</entry>
+<entry index='2'>
+  <device>DRER1</device>
+  <signal>generation</signal>
+  <type>Drer</type>
+</entry>
+<entry index='3'>
   <device>SST1</device>
   <signal>gateway</signal>
   <type>Sst</type>
 </entry>
-<entry index='2'>
+<entry index='4'>
+  <device>LOGGER</device>
+  <signal>dgiEnable</signal>
+  <type>Logger</type>
+</entry>
+<entry index='5'>
   <device>FID1</device>
   <signal>state</signal>
   <type>Fid</type>
 </entry>
-<entry index='3'>
+<entry index='6'>
   <device>FID2</device>
   <signal>state</signal>
   <type>Fid</type>
@@ -149,21 +304,41 @@
   <signal>gateway</signal>
   <type>Sst</type>
 </entry>
+<entry index='2'>
+  <device>LOGGER</device>
+  <signal>groupStatus</signal>
+  <type>Logger</type>
+</entry>
 </command>
 </adapter>
-<adapter type='rtds' port='5002'> 
+<adapter type='rtds' port='23012'> 
 <state>
 <entry index='1'>
+  <device>LOAD2</device>
+  <signal>drain</signal>
+  <type>Load</type>
+</entry>
+<entry index='2'>
+  <device>DRER2</device>
+  <signal>generation</signal>
+  <type>Drer</type>
+</entry>
+<entry index='3'>
   <device>SST2</device>
   <signal>gateway</signal>
   <type>Sst</type>
 </entry>
-<entry index='2'>
+<entry index='4'>
+  <device>LOGGER</device>
+  <signal>dgiEnable</signal>
+  <type>Logger</type>
+</entry>
+<entry index='5'>
   <device>FID2</device>
   <signal>state</signal>
   <type>Fid</type>
 </entry>
-<entry index='3'>
+<entry index='6'>
   <device>FID3</device>
   <signal>state</signal>
   <type>Fid</type>
@@ -175,21 +350,41 @@
   <signal>gateway</signal>
   <type>Sst</type>
 </entry>
+<entry index='2'>
+  <device>LOGGER</device>
+  <signal>groupStatus</signal>
+  <type>Logger</type>
+</entry>
 </command>
 </adapter>
-<adapter type='rtds' port='5003'> 
+<adapter type='rtds' port='23013'> 
 <state>
 <entry index='1'>
+  <device>LOAD3</device>
+  <signal>drain</signal>
+  <type>Load</type>
+</entry>
+<entry index='2'>
+  <device>DRER3</device>
+  <signal>generation</signal>
+  <type>Drer</type>
+</entry>
+<entry index='3'>
   <device>SST3</device>
   <signal>gateway</signal>
   <type>Sst</type>
 </entry>
-<entry index='2'>
+<entry index='4'>
+  <device>LOGGER</device>
+  <signal>dgiEnable</signal>
+  <type>Logger</type>
+</entry>
+<entry index='5'>
   <device>FID3</device>
   <signal>state</signal>
   <type>Fid</type>
 </entry>
-<entry index='3'>
+<entry index='6'>
   <device>FID4</device>
   <signal>state</signal>
   <type>Fid</type>
@@ -201,21 +396,41 @@
   <signal>gateway</signal>
   <type>Sst</type>
 </entry>
+<entry index='2'>
+  <device>LOGGER</device>
+  <signal>groupStatus</signal>
+  <type>Logger</type>
+</entry>
 </command>
 </adapter>
-<adapter type='rtds' port='5004'> 
+<adapter type='rtds' port='23014'> 
 <state>
 <entry index='1'>
+  <device>LOAD4</device>
+  <signal>drain</signal>
+  <type>Load</type>
+</entry>
+<entry index='2'>
+  <device>DRER4</device>
+  <signal>generation</signal>
+  <type>Drer</type>
+</entry>
+<entry index='3'>
   <device>SST4</device>
   <signal>gateway</signal>
   <type>Sst</type>
 </entry>
-<entry index='2'>
+<entry index='4'>
+  <device>LOGGER</device>
+  <signal>dgiEnable</signal>
+  <type>Logger</type>
+</entry>
+<entry index='5'>
   <device>FID4</device>
   <signal>state</signal>
   <type>Fid</type>
 </entry>
-<entry index='3'>
+<entry index='6'>
   <device>FID5</device>
   <signal>state</signal>
   <type>Fid</type>
@@ -227,21 +442,41 @@
   <signal>gateway</signal>
   <type>Sst</type>
 </entry>
+<entry index='2'>
+  <device>LOGGER</device>
+  <signal>groupStatus</signal>
+  <type>Logger</type>
+</entry>
 </command>
 </adapter>
-<adapter type='rtds' port='5005'> 
+<adapter type='rtds' port='23015'> 
 <state>
 <entry index='1'>
+  <device>LOAD5</device>
+  <signal>drain</signal>
+  <type>Load</type>
+</entry>
+<entry index='2'>
+  <device>DRER5</device>
+  <signal>generation</signal>
+  <type>Drer</type>
+</entry>
+<entry index='3'>
   <device>SST5</device>
   <signal>gateway</signal>
   <type>Sst</type>
 </entry>
-<entry index='2'>
+<entry index='4'>
+  <device>LOGGER</device>
+  <signal>dgiEnable</signal>
+  <type>Logger</type>
+</entry>
+<entry index='5'>
   <device>FID5</device>
   <signal>state</signal>
   <type>Fid</type>
 </entry>
-<entry index='3'>
+<entry index='6'>
   <device>FID6</device>
   <signal>state</signal>
   <type>Fid</type>
@@ -253,21 +488,41 @@
   <signal>gateway</signal>
   <type>Sst</type>
 </entry>
+<entry index='2'>
+  <device>LOGGER</device>
+  <signal>groupStatus</signal>
+  <type>Logger</type>
+</entry>
 </command>
 </adapter>
-<adapter type='rtds' port='5006'> 
+<adapter type='rtds' port='23016'> 
 <state>
 <entry index='1'>
+  <device>LOAD6</device>
+  <signal>drain</signal>
+  <type>Load</type>
+</entry>
+<entry index='2'>
+  <device>DRER6</device>
+  <signal>generation</signal>
+  <type>Drer</type>
+</entry>
+<entry index='3'>
   <device>SST6</device>
   <signal>gateway</signal>
   <type>Sst</type>
 </entry>
-<entry index='2'>
+<entry index='4'>
+  <device>LOGGER</device>
+  <signal>dgiEnable</signal>
+  <type>Logger</type>
+</entry>
+<entry index='5'>
   <device>FID6</device>
   <signal>state</signal>
   <type>Fid</type>
 </entry>
-<entry index='3'>
+<entry index='6'>
   <device>FID7</device>
   <signal>state</signal>
   <type>Fid</type>
@@ -278,6 +533,379 @@
   <device>SST6</device>
   <signal>gateway</signal>
   <type>Sst</type>
+</entry>
+<entry index='2'>
+  <device>LOGGER</device>
+  <signal>groupStatus</signal>
+  <type>Logger</type>
+</entry>
+</command>
+</adapter>
+<adapter type='rtds' port='23017'> 
+<state>
+<entry index='1'>
+  <device>LOAD7</device>
+  <signal>drain</signal>
+  <type>Load</type>
+</entry>
+<entry index='2'>
+  <device>DRER7</device>
+  <signal>generation</signal>
+  <type>Drer</type>
+</entry>
+<entry index='3'>
+  <device>SST7</device>
+  <signal>gateway</signal>
+  <type>Sst</type>
+</entry>
+<entry index='4'>
+  <device>LOGGER</device>
+  <signal>dgiEnable</signal>
+  <type>Logger</type>
+</entry>
+<entry index='5'>
+  <device>FID7</device>
+  <signal>state</signal>
+  <type>Fid</type>
+</entry>
+<entry index='6'>
+  <device>FID1</device>
+  <signal>state</signal>
+  <type>Fid</type>
+</entry>
+</state>
+<command>
+<entry index='1'>
+  <device>SST7</device>
+  <signal>gateway</signal>
+  <type>Sst</type>
+</entry>
+<entry index='2'>
+  <device>LOGGER</device>
+  <signal>groupStatus</signal>
+  <type>Logger</type>
+</entry>
+</command>
+</adapter>
+<adapter type='rtds' port='23018'> 
+<state>
+<entry index='1'>
+  <device>LOAD8</device>
+  <signal>drain</signal>
+  <type>Load</type>
+</entry>
+<entry index='2'>
+  <device>DRER8</device>
+  <signal>generation</signal>
+  <type>Drer</type>
+</entry>
+<entry index='3'>
+  <device>SST8</device>
+  <signal>gateway</signal>
+  <type>Sst</type>
+</entry>
+<entry index='4'>
+  <device>LOGGER</device>
+  <signal>dgiEnable</signal>
+  <type>Logger</type>
+</entry>
+<entry index='5'>
+  <device>FID2</device>
+  <signal>state</signal>
+  <type>Fid</type>
+</entry>
+<entry index='6'>
+  <device>FID3</device>
+  <signal>state</signal>
+  <type>Fid</type>
+</entry>
+</state>
+<command>
+<entry index='1'>
+  <device>SST8</device>
+  <signal>gateway</signal>
+  <type>Sst</type>
+</entry>
+<entry index='2'>
+  <device>LOGGER</device>
+  <signal>groupStatus</signal>
+  <type>Logger</type>
+</entry>
+</command>
+</adapter>
+<adapter type='rtds' port='23019'> 
+<state>
+<entry index='1'>
+  <device>LOAD9</device>
+  <signal>drain</signal>
+  <type>Load</type>
+</entry>
+<entry index='2'>
+  <device>DRER9</device>
+  <signal>generation</signal>
+  <type>Drer</type>
+</entry>
+<entry index='3'>
+  <device>SST9</device>
+  <signal>gateway</signal>
+  <type>Sst</type>
+</entry>
+<entry index='4'>
+  <device>LOGGER</device>
+  <signal>dgiEnable</signal>
+  <type>Logger</type>
+</entry>
+<entry index='5'>
+  <device>FID3</device>
+  <signal>state</signal>
+  <type>Fid</type>
+</entry>
+<entry index='6'>
+  <device>FID4</device>
+  <signal>state</signal>
+  <type>Fid</type>
+</entry>
+</state>
+<command>
+<entry index='1'>
+  <device>SST9</device>
+  <signal>gateway</signal>
+  <type>Sst</type>
+</entry>
+<entry index='2'>
+  <device>LOGGER</device>
+  <signal>groupStatus</signal>
+  <type>Logger</type>
+</entry>
+</command>
+</adapter>
+<adapter type='rtds' port='23020'> 
+<state>
+<entry index='1'>
+  <device>LOAD10</device>
+  <signal>drain</signal>
+  <type>Load</type>
+</entry>
+<entry index='2'>
+  <device>DRER10</device>
+  <signal>generation</signal>
+  <type>Drer</type>
+</entry>
+<entry index='3'>
+  <device>SST10</device>
+  <signal>gateway</signal>
+  <type>Sst</type>
+</entry>
+<entry index='4'>
+  <device>LOGGER</device>
+  <signal>dgiEnable</signal>
+  <type>Logger</type>
+</entry>
+<entry index='5'>
+  <device>FID6</device>
+  <signal>state</signal>
+  <type>Fid</type>
+</entry>
+<entry index='6'>
+  <device>FID7</device>
+  <signal>state</signal>
+  <type>Fid</type>
+</entry>
+</state>
+<command>
+<entry index='1'>
+  <device>SST10</device>
+  <signal>gateway</signal>
+  <type>Sst</type>
+</entry>
+<entry index='2'>
+  <device>LOGGER</device>
+  <signal>groupStatus</signal>
+  <type>Logger</type>
+</entry>
+</command>
+</adapter>
+<adapter type='rtds' port='23021'> 
+<state>
+<entry index='1'>
+  <device>LOAD11</device>
+  <signal>drain</signal>
+  <type>Load</type>
+</entry>
+<entry index='2'>
+  <device>DRER11</device>
+  <signal>generation</signal>
+  <type>Drer</type>
+</entry>
+<entry index='3'>
+  <device>SST11</device>
+  <signal>gateway</signal>
+  <type>Sst</type>
+</entry>
+<entry index='4'>
+  <device>LOGGER</device>
+  <signal>dgiEnable</signal>
+  <type>Logger</type>
+</entry>
+<entry index='5'>
+  <device>FID7</device>
+  <signal>state</signal>
+  <type>Fid</type>
+</entry>
+<entry index='6'>
+  <device>FID1</device>
+  <signal>state</signal>
+  <type>Fid</type>
+</entry>
+</state>
+<command>
+<entry index='1'>
+  <device>SST11</device>
+  <signal>gateway</signal>
+  <type>Sst</type>
+</entry>
+<entry index='2'>
+  <device>LOGGER</device>
+  <signal>groupStatus</signal>
+  <type>Logger</type>
+</entry>
+</command>
+</adapter>
+<adapter type='rtds' port='23022'> 
+<state>
+<entry index='1'>
+  <device>LOAD12</device>
+  <signal>drain</signal>
+  <type>Load</type>
+</entry>
+<entry index='2'>
+  <device>DRER12</device>
+  <signal>generation</signal>
+  <type>Drer</type>
+</entry>
+<entry index='3'>
+  <device>SST12</device>
+  <signal>gateway</signal>
+  <type>Sst</type>
+</entry>
+<entry index='4'>
+  <device>LOGGER</device>
+  <signal>dgiEnable</signal>
+  <type>Logger</type>
+</entry>
+<entry index='5'>
+  <device>FID1</device>
+  <signal>state</signal>
+  <type>Fid</type>
+</entry>
+<entry index='6'>
+  <device>FID2</device>
+  <signal>state</signal>
+  <type>Fid</type>
+</entry>
+</state>
+<command>
+<entry index='1'>
+  <device>SST12</device>
+  <signal>gateway</signal>
+  <type>Sst</type>
+</entry>
+<entry index='2'>
+  <device>LOGGER</device>
+  <signal>groupStatus</signal>
+  <type>Logger</type>
+</entry>
+</command>
+</adapter>
+<adapter type='rtds' port='23023'> 
+<state>
+<entry index='1'>
+  <device>LOAD13</device>
+  <signal>drain</signal>
+  <type>Load</type>
+</entry>
+<entry index='2'>
+  <device>DRER13</device>
+  <signal>generation</signal>
+  <type>Drer</type>
+</entry>
+<entry index='3'>
+  <device>SST13</device>
+  <signal>gateway</signal>
+  <type>Sst</type>
+</entry>
+<entry index='4'>
+  <device>LOGGER</device>
+  <signal>dgiEnable</signal>
+  <type>Logger</type>
+</entry>
+<entry index='5'>
+  <device>FID4</device>
+  <signal>state</signal>
+  <type>Fid</type>
+</entry>
+<entry index='6'>
+  <device>FID5</device>
+  <signal>state</signal>
+  <type>Fid</type>
+</entry>
+</state>
+<command>
+<entry index='1'>
+  <device>SST13</device>
+  <signal>gateway</signal>
+  <type>Sst</type>
+</entry>
+<entry index='2'>
+  <device>LOGGER</device>
+  <signal>groupStatus</signal>
+  <type>Logger</type>
+</entry>
+</command>
+</adapter>
+<adapter type='rtds' port='23024'> 
+<state>
+<entry index='1'>
+  <device>LOAD14</device>
+  <signal>drain</signal>
+  <type>Load</type>
+</entry>
+<entry index='2'>
+  <device>DRER14</device>
+  <signal>generation</signal>
+  <type>Drer</type>
+</entry>
+<entry index='3'>
+  <device>SST14</device>
+  <signal>gateway</signal>
+  <type>Sst</type>
+</entry>
+<entry index='4'>
+  <device>LOGGER</device>
+  <signal>dgiEnable</signal>
+  <type>Logger</type>
+</entry>
+<entry index='5'>
+  <device>FID5</device>
+  <signal>state</signal>
+  <type>Fid</type>
+</entry>
+<entry index='6'>
+  <device>FID6</device>
+  <signal>state</signal>
+  <type>Fid</type>
+</entry>
+</state>
+<command>
+<entry index='1'>
+  <device>SST14</device>
+  <signal>gateway</signal>
+  <type>Sst</type>
+</entry>
+<entry index='2'>
+  <device>LOGGER</device>
+  <signal>groupStatus</signal>
+  <type>Logger</type>
 </entry>
 </command>
 </adapter>
