@@ -1,0 +1,88 @@
+via: amp.caps.fsu.edu
+user: dgiteam
+local: urxvt -e
+todo:
+    - host: mamba1
+      name: mamba1-1
+      user: root
+      execute: ./PosixBroker -p 61870 --adapter-config config/adapter.xml
+      cd: /root/MST/FREEDM/Broker
+      desktop: 2
+    - host: mamba2
+      name: mamba2-1
+      user: root
+      execute: ./PosixBroker -p 61870 --adapter-config config/adapter.xml
+      cd: /root/MST/FREEDM/Broker
+      desktop: 2
+    - host: mamba3
+      name: mamba3-1
+      user: root
+      execute: ./PosixBroker -p 61870 --adapter-config config/adapter.xml
+      cd: /root/MST/FREEDM/Broker
+      desktop: 2
+    - host: mamba4
+      name: mamba4-1
+      user: root
+      execute: ./PosixBroker -p 61870 --adapter-config config/adapter.xml
+      cd: /root/MST/FREEDM/Broker
+      desktop: 2
+    - host: mamba5
+      name: mamba5-1
+      user: root
+      execute: ./PosixBroker -p 61870 --adapter-config config/adapter.xml
+      cd: /root/MST/FREEDM/Broker
+      desktop: 2
+    - host: mamba6
+      name: mamba6-1
+      user: root
+      execute: ./PosixBroker -p 61870 --adapter-config config/adapter.xml
+      cd: /root/MST/FREEDM/Broker
+      desktop: 2
+    - host: mamba1
+      name: mamba1-2
+      user: root
+      execute: ./PosixBroker -p 61871 --adapter-config config/adapter2.xml
+      cd: /root/MST/FREEDM/Broker
+      desktop: 3
+    - host: mamba2
+      name: mamba2-2
+      user: root
+      execute: ./PosixBroker -p 61871 --adapter-config config/adapter2.xml
+      cd: /root/MST/FREEDM/Broker
+      desktop: 3
+    - host: mamba3
+      name: mamba3-2
+      user: root
+      execute: ./PosixBroker -p 61871 --adapter-config config/adapter2.xml
+      cd: /root/MST/FREEDM/Broker
+      desktop: 3
+    - host: mamba4
+      name: mamba4-2
+      user: root
+      execute: ./PosixBroker -p 61871 --adapter-config config/adapter2.xml
+      cd: /root/MST/FREEDM/Broker
+      desktop: 3
+    - host: mamba5
+      name: mamba5-2
+      user: root
+      execute: ./PosixBroker -p 61871 --adapter-config config/adapter2.xml
+      cd: /root/MST/FREEDM/Broker
+      desktop: 3
+    - host: mamba6
+      name: mamba6-2
+      user: root
+      execute: ./PosixBroker -p 61871 --adapter-config config/adapter2.xml
+      cd: /root/MST/FREEDM/Broker
+      desktop: 3
+    - host: mamba1
+      name: mamba1-3
+      user: root
+      execute: ./PosixBroker -p 61872 --adapter-config config/adapter3.xml
+      cd: /root/MST/FREEDM/Broker
+      desktop: 4
+    - host: mamba2
+      name: mamba2-3
+      user: root
+      execute: ./PosixBroker -p 61872 --adapter-config config/adapter3.xml
+      cd: /root/MST/FREEDM/Broker
+      desktop: 4
